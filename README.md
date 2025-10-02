@@ -5,7 +5,7 @@
 ## Стек технологий
 
 - React (Vite)
-- JavaScript / TypeScript
+- JavaScript
 - CSS Modules
 - React Router
 - Axios (для работы с API)
@@ -20,6 +20,15 @@
 ## Установка
 
 Склонируйте репозиторий и установите зависимости:
+```
+git clone https://github.com/aaaaaaaaaaa11111111111/online-catalog.git
+```
+```
+cd online-catalog
+```
+```
+npm install
+```
 
 ## Запуск проекта
 
