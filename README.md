@@ -8,7 +8,7 @@
 - JavaScript
 - CSS Modules
 - React Router
-- Axios (для работы с API)
+- Axios
 
 ## Структура проекта
 
@@ -19,13 +19,14 @@
 
 ## Установка
 
-Склонируйте репозиторий и установите зависимости:
+Склонируйте репозиторий:
 ```
 git clone https://github.com/aaaaaaaaaaa11111111111/online-catalog.git
 ```
 ```
 cd online-catalog
 ```
+становите зависимости:
 ```
 npm install
 ```
