@@ -26,7 +26,7 @@ git clone https://github.com/aaaaaaaaaaa11111111111/online-catalog.git
 ```
 cd online-catalog
 ```
-становите зависимости:
+Установите зависимости:
 ```
 npm install
 ```
