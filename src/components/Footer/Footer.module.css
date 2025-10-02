@@ -1,0 +1,88 @@
+.footer {
+  width: 100%;
+  background-color: #f9f4e2;
+  height: 126px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  background-image: url("/src/assets/footer-pattern.svg");
+  padding: 24px 115px;
+  gap: 16px;
+}
+
+.footerContainer {
+  width: 100%;
+  max-width: 1440px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  gap: 24px;
+}
+
+.footerLogoMenucontainer {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.logo {
+  width: 64px;
+  height: 44px;
+}
+
+.footerLinks a {
+  all: unset;
+  cursor: pointer;
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: var(--line-height);
+  color: var(--color-text-main);
+  display: inline-block;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.footerLinks a:last-child {
+  margin-right: 0;
+}
+
+.contacts {
+  display: flex;
+  gap: 40px;
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: var(--line-height);
+  font-family: var(--font-main);
+  color: var(--color-text-main);
+  gap: 8px;
+}
+
+.designCredit {
+  display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: var(--line-height);
+  font-family: var(--font-main);
+  color: var(--color-text-main);
+  gap: 8px;
+  align-items: center;
+}
+
+.designLogo {
+  width: 100px;
+  height: 10px;
+}

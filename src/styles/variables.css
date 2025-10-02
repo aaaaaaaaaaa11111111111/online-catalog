@@ -1,0 +1,29 @@
+:root {
+  /* Fonts */
+  --font-main: "Rubik", sans-serif;
+  --font-alt: "Roboto", sans-serif;
+
+  /* Colors */
+  --color-text-main: #414141;
+  --color-text-secondary: #606060;
+  --color-text-light: #bfbfbf;
+  --color-accent: #f63;
+  --color-border: #e5e7eb;
+  --color-btn: #70c05b;
+  --color-white: #ffffff;
+
+  /* Line height */
+  --line-height: 150%;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+
+  /* Sizes */
+  --card-width: 272px;
+  --card-height: 349px;
+  --image-height: 160px;
+  --discount-badge-width: 56px;
+  --discount-badge-height: 32px;
+}

@@ -1,0 +1,120 @@
+.container {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.searchWrapper {
+  display: flex;
+  gap: 8px;
+  max-width: 28rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+
+.input {
+  flex: 1;
+  padding: 8px 16px;
+  border-radius: var(--radius-lg);
+  border: 1px solid #d1d5db;
+  outline: none;
+  font-family: var(--font-main);
+}
+
+.input:focus {
+  box-shadow: 0 0 0 2px #3b82f6;
+}
+
+.searchButton {
+  padding: 8px 12px;
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  font-weight: 500;
+  font-family: var(--font-main);
+}
+
+.searchResultWrapper {
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.searchResultHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.searchTitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: var(--line-height);
+  margin: 0;
+  color: var(--color-text-main);
+}
+
+.searchQuery {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: var(--line-height);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-text-secondary);
+}
+
+.queryWord {
+  color: var(--color-accent);
+}
+
+.clearQuery {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: var(--color-accent);
+  margin-left: 8px;
+}
+
+.grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.message {
+  color: #6b7280;
+  margin-top: 8px;
+  font-size: 20px;
+  font-family: var(--font-main);
+}
+
+.error {
+  text-align: center;
+  color: #f87171;
+  margin-top: 40px;
+  font-family: var(--font-main);
+}
